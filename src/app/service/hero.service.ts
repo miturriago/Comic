@@ -71,6 +71,7 @@ export class HeroService {
     }
 
     buscarHeroe(palabra:string):Hero[]{
+      console.log(palabra);
       let heroArr:Hero[] = [];
       palabra = palabra.toLowerCase();
       for( let hero of this.hero){
