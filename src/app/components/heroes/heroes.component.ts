@@ -22,7 +22,7 @@ export class HeroesComponent implements OnInit {
     console.log(this.personaje);
   }
   
-  verHeroe(id:number){
+  verPersonaje(id:number){
     this._router.navigate(['/detalles',id]);
   }
 

@@ -17,7 +17,6 @@ import { APP_ROUTING } from './app.routes';
 import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
 import { BusquedaHeroeComponent } from './components/busqueda-heroe/busqueda-heroe.component';
 import { VillainsComponent } from './components/villains/villains.component';
-import { VillainsDetailsComponent } from './components/villains-details/villains-details.component';
 import { PersonajeService } from './service/personajes.service';
 
 @NgModule({
@@ -29,15 +28,13 @@ import { PersonajeService } from './service/personajes.service';
     AboutComponent,
     HeroDetailsComponent,
     BusquedaHeroeComponent,
-    VillainsComponent,
-    VillainsDetailsComponent
+    VillainsComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING
   ],
   providers: [
-  
     PersonajeService
   ],
   bootstrap: [AppComponent]
