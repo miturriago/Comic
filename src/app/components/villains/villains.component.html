@@ -1,15 +1,19 @@
-<h1>Villanos <small>Marvel  y DC </small></h1>
+<h1>Villanos <small>Marvel y DC </small></h1>
 <hr>
 <div class="card-columns">
-    <div class="card animated fadeIn fast" *ngFor="let personajes of personaje; let idx = index;">
-        <!-- <img src="{{heros.img}}" class="card-img-top" alt="{{heros.nombre}}"> -->
-        <img [src]="personajes.img" class="card-img-top" [alt]="personajes.nombre">
-        <div class="card-body">
-            <h5 class="card-title">{{personajes.nombre}}</h5>
-            <p class="card-text">{{personajes.bio}}</p>
-            <p class="card-text"><small class="text-muted">{{personajes.aparicion}}</small></p>
-            <button type="button" (click)="verVillano(idx)" class="btn btn-outline-primary btn-block">Ver mas...</button>
-            <a [routerLink]="['/detalles',idx]" class="btn btn-outline-primary btn-block"> Ver mas ...</a>
+    <div *ngFor="let personajes of personaje; let idx = index;">
+
+        <div class="card animated fadeIn fast" *ngIf="personajes.clase == 'Villano' ">
+            <!-- <img src="{{heros.img}}" class="card-img-top" alt="{{heros.nombre}}"> -->
+            <img [src]="personajes.img" class="card-img-top" [alt]="personajes.nombre">
+            <div class="card-body">
+                <h5 class="card-title">{{personajes.nombre}}</h5>
+                <p class="card-text">{{personajes.bio}}</p>
+                <p class="card-text"><small class="text-muted">{{personajes.aparicion}}</small></p>
+                <button type="button" (click)="verVillano(idx)" class="btn btn-outline-primary btn-block">Ver
+                    mas...</button>
+                <a [routerLink]="['/detalles',idx]" class="btn btn-outline-primary btn-block"> Ver mas ...</a>
+            </div>
         </div>
     </div>
 </div>

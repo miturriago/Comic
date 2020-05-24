@@ -47,6 +47,14 @@ export class PersonajeService {
               clase:"Heroe"
             },
             {
+              nombre: "MALO",
+              bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
+              img: "assets/img/wolverine.png",
+              aparicion: "1974-11-01",
+              casa: "Marvel",
+              clase:"Villano"
+            },
+            {
               nombre: "Spider-Man",
               bio: "Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un \"sentido arácnido\", que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.",
               img: "assets/img/spiderman.png",
@@ -61,6 +69,15 @@ export class PersonajeService {
               aparicion: "1974-11-01",
               casa: "Marvel",
               clase:"Heroe"
+            },
+            
+            {
+              nombre: "MALO 2",
+              bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
+              img: "assets/img/wolverine.png",
+              aparicion: "1974-11-01",
+              casa: "Marvel",
+              clase:"Villano"
             }
     ];
 
