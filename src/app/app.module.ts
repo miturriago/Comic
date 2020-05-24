@@ -14,10 +14,11 @@ import { APP_ROUTING } from './app.routes';
 
 // SERVICIOS
 
-import { HeroService } from './service/hero.service';
 import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
 import { BusquedaHeroeComponent } from './components/busqueda-heroe/busqueda-heroe.component';
-
+import { VillainsComponent } from './components/villains/villains.component';
+import { VillainsDetailsComponent } from './components/villains-details/villains-details.component';
+import { PersonajeService } from './service/personajes.service';
 
 @NgModule({
   declarations: [
@@ -27,14 +28,17 @@ import { BusquedaHeroeComponent } from './components/busqueda-heroe/busqueda-her
     HeroesComponent,
     AboutComponent,
     HeroDetailsComponent,
-    BusquedaHeroeComponent    
+    BusquedaHeroeComponent,
+    VillainsComponent,
+    VillainsDetailsComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING
   ],
   providers: [
-    HeroService
+  
+    PersonajeService
   ],
   bootstrap: [AppComponent]
 })
