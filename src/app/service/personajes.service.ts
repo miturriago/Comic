@@ -47,11 +47,11 @@ export class PersonajeService {
               clase:"Heroe"
             },
             {
-              nombre: "MALO",
-              bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
-              img: "assets/img/wolverine.png",
-              aparicion: "1974-11-01",
-              casa: "Marvel",
+              nombre: "Lex Luthor",
+              bio: "El archienemigo de Superman nació en 1940 de la mano de Jerry Siegel y Joe Shuster. Luthor se caracteriza por ser un villano sin poderes. Aunque, eso sí, tiene mucho dinero. Y al fin y al cabo el dinero da poder, ¿no?.",
+              img: "assets/img/luthor.jpg",
+              aparicion: "1940-23-04",
+              casa: "DC",
               clase:"Villano"
             },
             {
@@ -72,13 +72,30 @@ export class PersonajeService {
             },
             
             {
-              nombre: "MALO 2",
-              bio: "En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.",
-              img: "assets/img/wolverine.png",
-              aparicion: "1974-11-01",
+              nombre: "Joker",
+              bio: "Nuestro Top Number One es uno de los villanos más famosos, no sólo del mundo del cómic, sino también del cine.Bill Finger y Bob Kane crearon a este guasón en el primer número de Batman de 1940. Su locura se basa en el caos absoluto; disfruta con la violencia y el humor, su humor.",
+              img: "assets/img/joker.jpg",
+              aparicion: "1940-25-04",
+              casa: "DC",
+              clase:"Villano"
+            },
+            {
+              nombre: "Ronan el acusador",
+              bio: "Una pena que un actor tan solvente como Lee Pace pase sin pena ni gloria por esa maravilla que es la primera parte de 'Guardianas de la Galaxia'. Le mantendremos por que mola mucho su martillo... y la escena final con Star Lord, aunque eso sería más mérito de Chris Pratt que otra cosa.",
+              img: "assets/img/ronan.jpg",
+              aparicion: "1967-12-08",
               casa: "Marvel",
               clase:"Villano"
+            },
+            {
+              nombre: "Siniestro",
+              bio: "El archienemigo de Green Lantern fue creado por John Broome y Gil Kane en 1961. En un principio, fue uno de los mejores Lanterns y mentor del propio Hal Jordan. Pero su visión de la justicia le hizo abandonar el camino de los héroes, convirtiéndole en el villano que conocemos. Mientras que Green Lantern usa el poder de la valentía representado con el color verde, Siniestro usa el amarillo que representa el miedo. Y hasta tiene su propia corporación de Lanterns: los Siniestro Corps.",
+              img: "assets/img/siniestro.png",
+              aparicion: "1986-12-12",
+              casa: "DC",
+              clase:"Villano"
             }
+
     ];
 
     constructor(){
